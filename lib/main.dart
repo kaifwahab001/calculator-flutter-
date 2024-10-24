@@ -1,6 +1,7 @@
+import 'package:calculator/SplashScreen.dart';
 import 'package:flutter/material.dart';
 
-import 'Homepage.dart';
+import 'Screens/Homepage.dart';
 
 void main (){
   runApp(MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark
       ),
-      home: Homepage(),
+      home: Splashscreen(),
     );
   }
 }
